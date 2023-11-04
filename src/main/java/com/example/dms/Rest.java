@@ -259,5 +259,33 @@ public class Rest {
 		return mv;
 		
 	}
+	@GetMapping("about")
+	public ModelAndView about()
+	{
+		ModelAndView mv=new ModelAndView();
+		mv.setViewName("about");
+		return mv;
+	}
+	@GetMapping("classes")
+	public ModelAndView classes()
+	{
+		ModelAndView mv=new ModelAndView();
+		mv.setViewName("classes");
+		return mv;
+	}
+	@GetMapping("courses")
+	public ModelAndView courses()
+	{
+		ModelAndView mv=new ModelAndView();
+		mv.setViewName("courses");
+		return mv;
+	}
+	@GetMapping("gallery")
+	public ModelAndView gallery()
+	{
+		ModelAndView mv=new ModelAndView();
+		mv.setViewName("gallery");
+		return mv;
+	}
 	
 }

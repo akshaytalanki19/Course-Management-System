@@ -25,6 +25,7 @@
         
       </ul>
     </nav>
+<<<<<<< HEAD
     <section></section>
     <footer>
         <div class="foot-panel1">
@@ -86,6 +87,12 @@
 </html>
 <style>
 *{
+=======
+    </body>
+    </html>
+    <style>
+    *{
+>>>>>>> 616cb46f30234cc6929ee5d5075ab95ba594881c
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -246,4 +253,47 @@ section{
   background: url(bg1.jpg) no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
-}</style>
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 460px;
+  height: 250px;
+  border-radius: 30px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+    
+    </style>
