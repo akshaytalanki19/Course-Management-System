@@ -26,5 +26,10 @@ public class AdminServiceimpl implements AdminService{
 	public List<User> viewlAllUsers() {
 		return userRepository.findAll();
 	}
+	@Override
+	public void deleteuser(int uid) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
