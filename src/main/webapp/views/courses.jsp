@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>KidKinder - Kindergarten Website Template</title>
+    <title>Course Management system</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="Free HTML Templates" name="keywords" />
     <meta content="Free HTML Templates" name="description" />
@@ -109,25 +109,24 @@
           <p class="section-title px-5">
             <span class="px-2">Popular Classes</span>
           </p>
-          <h1 class="mb-4">Classes for Your Kids</h1>
+          <h1 class="mb-4">Classes for You</h1>
         </div>
         <div class="row">
           <div class="col-lg-4 mb-5">
             <div class="card border-0 bg-light shadow-sm pb-2">
               <img class="card-img-top mb-2" src="img/class-1.jpg" alt="" />
               <div class="card-body text-center">
-                <h4 class="card-title">Drawing Class</h4>
+                <h4 class="card-title">Devops class</h4>
                 <p class="card-text">
-                  Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
-                  ipsum duo et no et, ipsum ipsum erat duo amet clita duo
+                  now a days skills speaks louder than degree and marks
                 </p>
               </div>
               <div class="card-footer bg-transparent py-4 px-5">
                 <div class="row border-bottom">
                   <div class="col-6 py-1 text-right border-right">
-                    <strong>Age of Kids</strong>
+                    <strong>criteria</strong>
                   </div>
-                  <div class="col-6 py-1">3 - 6 Years</div>
+                  <div class="col-6 py-1">b.tech</div>
                 </div>
                 <div class="row border-bottom">
                   <div class="col-6 py-1 text-right border-right">
@@ -139,13 +138,13 @@
                   <div class="col-6 py-1 text-right border-right">
                     <strong>Class Time</strong>
                   </div>
-                  <div class="col-6 py-1">08:00 - 10:00</div>
+                  <div class="col-6 py-1">08:00 - 10:00 PM</div>
                 </div>
                 <div class="row">
                   <div class="col-6 py-1 text-right border-right">
                     <strong>Tution Fee</strong>
                   </div>
-                  <div class="col-6 py-1">$290 / Month</div>
+                  <div class="col-6 py-1">$29 / Month</div>
                 </div>
               </div>
               <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
@@ -157,34 +156,33 @@
               <div class="card-body text-center">
                 <h4 class="card-title">Language Learning</h4>
                 <p class="card-text">
-                  Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
-                  ipsum duo et no et, ipsum ipsum erat duo amet clita duo
+                 learning a programming language is a valuable skill with wide-ranging applications. It can enhance your problem-solving abilities, career prospects, and understanding of technology
                 </p>
               </div>
               <div class="card-footer bg-transparent py-4 px-5">
                 <div class="row border-bottom">
                   <div class="col-6 py-1 text-right border-right">
-                    <strong>Age of Kids</strong>
+                    <strong>criteria</strong>
                   </div>
-                  <div class="col-6 py-1">3 - 6 Years</div>
+                  <div class="col-6 py-1">15+</div>
                 </div>
                 <div class="row border-bottom">
                   <div class="col-6 py-1 text-right border-right">
                     <strong>Total Seats</strong>
                   </div>
-                  <div class="col-6 py-1">40 Seats</div>
+                  <div class="col-6 py-1">60 Seats</div>
                 </div>
                 <div class="row border-bottom">
                   <div class="col-6 py-1 text-right border-right">
                     <strong>Class Time</strong>
                   </div>
-                  <div class="col-6 py-1">08:00 - 10:00</div>
+                  <div class="col-6 py-1">06:00 - 08:00 PM</div>
                 </div>
                 <div class="row">
                   <div class="col-6 py-1 text-right border-right">
                     <strong>Tution Fee</strong>
                   </div>
-                  <div class="col-6 py-1">$290 / Month</div>
+                  <div class="col-6 py-1">$35 / Month</div>
                 </div>
               </div>
               <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
@@ -194,36 +192,35 @@
             <div class="card border-0 bg-light shadow-sm pb-2">
               <img class="card-img-top mb-2" src="img/class-3.jpg" alt="" />
               <div class="card-body text-center">
-                <h4 class="card-title">Basic Science</h4>
+                <h4 class="card-title">AWS Training</h4>
                 <p class="card-text">
-                  Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
-                  ipsum duo et no et, ipsum ipsum erat duo amet clita duo
+                  AWS training is essential in today's technology landscape. It not only opens up career opportunities but also equips you with the skills and knowledge needed to design, deploy, and manage cloud solutions efficiently
                 </p>
               </div>
               <div class="card-footer bg-transparent py-4 px-5">
                 <div class="row border-bottom">
                   <div class="col-6 py-1 text-right border-right">
-                    <strong>Age of Kids</strong>
+                    <strong>Criteria</strong>
                   </div>
-                  <div class="col-6 py-1">3 - 6 Years</div>
+                  <div class="col-6 py-1">12th standard</div>
                 </div>
                 <div class="row border-bottom">
                   <div class="col-6 py-1 text-right border-right">
                     <strong>Total Seats</strong>
                   </div>
-                  <div class="col-6 py-1">40 Seats</div>
+                  <div class="col-6 py-1">30 Seats</div>
                 </div>
                 <div class="row border-bottom">
                   <div class="col-6 py-1 text-right border-right">
                     <strong>Class Time</strong>
                   </div>
-                  <div class="col-6 py-1">08:00 - 10:00</div>
+                  <div class="col-6 py-1">10:00 - 11:45 AM/div>
                 </div>
                 <div class="row">
                   <div class="col-6 py-1 text-right border-right">
                     <strong>Tution Fee</strong>
                   </div>
-                  <div class="col-6 py-1">$290 / Month</div>
+                  <div class="col-6 py-1">15$ / Month</div>
                 </div>
               </div>
               <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
