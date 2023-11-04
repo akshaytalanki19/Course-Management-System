@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal - www.codingnepalweb.com -->
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>SDP-JFSD</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta charset="utf-8" />
+    <title>KidKinder - Kindergarten Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free HTML Templates" name="keywords" />
+    <meta content="Free HTML Templates" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
   </head>
+
   <body>
     <!-- Navbar Start -->
     <div class="container-fluid bg-light position-relative shadow">
@@ -20,7 +46,7 @@
           style="font-size: 50px"
         >
           <i class="flaticon-043-teddy-bear"></i>
-          <span class="text-primary">SDP</span>
+          <span class="text-primary">KidKinder</span>
         </a>
         <button
           type="button"
@@ -59,230 +85,22 @@
       </nav>
     </div>
     <!-- Navbar End -->
-    
-    
+
     <!-- Header Start -->
-    <div class="container-fluid bg-primary px-0 px-md-5 mb-5">
-      <div class="row align-items-center px-3">
-        <div class="col-lg-6 text-center text-lg-left">
-          <h4 class="text-white mb-4 mt-5 mt-lg-0">LEARNING PLATFORM</h4>
-          <h1 class="display-3 font-weight-bold text-white">
-            New Approach to the modern generations
-          </h1>
-          <p class="text-white mb-4">
-            Effective course management is essential for providing a positive learning experience for students and ensuring that educational objectives are met. With advancements in technology
-            
-          </p>
-          <a href="" class="btn btn-secondary mt-1 py-3 px-5">Learn More</a>
-           
-        </div>
-        <div class="col-lg-6 text-center text-lg-right">
-          <img class="img-fluid mt-5" src="img/header.png" alt="" />
+    <div class="container-fluid bg-primary mb-5">
+      <div
+        class="d-flex flex-column align-items-center justify-content-center"
+        style="min-height: 400px"
+      >
+        <h3 class="display-3 font-weight-bold text-white">Our Classes</h3>
+        <div class="d-inline-flex text-white">
+          <p class="m-0"><a class="text-white" href="">Home</a></p>
+          <p class="m-0 px-2">/</p>
+          <p class="m-0">Our Classes</p>
         </div>
       </div>
     </div>
     <!-- Header End -->
-
-    <!-- Facilities Start -->
-    <div class="container-fluid pt-5">
-      <div class="container pb-3">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 pb-1">
-            <div
-              class="d-flex bg-light shadow-sm border-top rounded mb-4"
-              style="padding: 30px"
-            >
-              <i
-                class="flaticon-050-fence h1 font-weight-normal text-primary mb-3"
-              ></i>
-              <div class="pl-4">
-                <h4>WEB DEVELOPMENT</h4>
-                <p class="m-0">
-                  HTML
-                  <br>
-                  
-                  CSS
-                  <br>
-                  
-                  JAVASCRIPT
-                  <br>
-                  PHP
-                  <br>
-                  JAVA
-                  
-                  
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 pb-1">
-            <div
-              class="d-flex bg-light shadow-sm border-top rounded mb-4"
-              style="padding: 30px"
-            >
-              <i
-                class="flaticon-022-drum h1 font-weight-normal text-primary mb-3"
-              ></i>
-              <div class="pl-4">
-                <h4>CORE SUBJECTS</h4>
-                <p class="m-0">
-                  OPERATING SYSTEMS
-                  <br>
-                  COMPUTER NETWORKS
-                  <br>
-                  OOPS
-                  <br>
-                  SOFTWARE ENGINEERING
-                  <br>
-                  DBMS
-                  
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 pb-1">
-            <div
-              class="d-flex bg-light shadow-sm border-top rounded mb-4"
-              style="padding: 30px"
-            >
-              <i
-                class="flaticon-030-crayons h1 font-weight-normal text-primary mb-3"
-              ></i>
-              <div class="pl-4">
-                 <h4>DATA STRUCTURES</h4>
-                <p class="m-0">
-                  TREES
-                  <br>
-                  GRAPHS
-                  <br>
-                  DYNAMIC PROGRAMMING
-                  <br>
-                  <br>
-                  <br>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 pb-1">
-            <div
-              class="d-flex bg-light shadow-sm border-top rounded mb-4"
-              style="padding: 30px"
-            >
-              <i
-                class="flaticon-017-toy-car h1 font-weight-normal text-primary mb-3"
-              ></i>
-              <div class="pl-4">
-                 <h4>CODING</h4>
-                <p class="m-0">
-                  C
-                  <br>
-                  C++
-                  <br>
-                  JAVA
-                  <br>
-                  PYTHON
-                  <br>
-                  
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 pb-1">
-            <div
-              class="d-flex bg-light shadow-sm border-top rounded mb-4"
-              style="padding: 30px"
-            >
-              <i
-                class="flaticon-025-sandwich h1 font-weight-normal text-primary mb-3"
-              ></i>
-              <div class="pl-4">
-                 <h4>CERTIFICATIONS</h4>
-                <p class="m-0">
-                  AWS
-                  <br>
-                  AZURE
-                  <br>
-                  SCRUM MASTER
-                  <br>
-                  TENSORFLOW
-                  <br>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 pb-1">
-            <div
-              class="d-flex bg-light shadow-sm border-top rounded mb-4"
-              style="padding: 30px"
-            >
-              <i
-                class="flaticon-047-backpack h1 font-weight-normal text-primary mb-3"
-              ></i>
-              <div class="pl-4">
-                 <h4>DESIGNING</h4>
-                <p class="m-0">
-                  UX DESIGN
-                  <br>
-                  FIGMA
-                  <br>
-                  AUTODESK
-                  <br>
-                  ARDUINO DEVELOPMENT
-                  <br>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Facilities Start -->
-
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-5">
-            <img
-              class="img-fluid rounded mb-5 mb-lg-0"
-              src="img/about-1.jpg"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-7">
-            <p class="section-title pr-5">
-              <span class="pr-2">Learn About Us</span>
-            </p>
-            <h1 class="mb-4">Best Flatform For Your Carrier Development</h1>
-            <p>
-              Selecting qualified instructors, assigning them to courses, and coordinating their schedules
-             Online learning allows students to access educational materials and participate in classes from anywhere with an internet connection. This flexibility is particularly beneficial for those with busy schedules, working professionals, or individuals with family commitments.
-            </p>
-            <div class="row pt-2 pb-4">
-              <div class="col-6 col-md-4">
-                <img class="img-fluid rounded" src="img/about-2.jpg" alt="" />
-              </div>
-              <div class="col-6 col-md-8">
-                <ul class="list-inline m-0">
-                  <li class="py-2 border-top border-bottom">
-                    <i class="fa fa-check text-primary mr-3"></i>Free demo class
-                  </li>
-                  <li class="py-2 border-bottom">
-                    <i class="fa fa-check text-primary mr-3"></i>Live Instructors
-                    
-                  </li>
-                  <li class="py-2 border-bottom">
-                    <i class="fa fa-check text-primary mr-3"></i>Online mock tests and live Assesments
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <a href="" class="btn btn-primary mt-2 py-2 px-4">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- About End -->
 
     <!-- Class Start -->
     <div class="container-fluid pt-5">
@@ -291,16 +109,17 @@
           <p class="section-title px-5">
             <span class="px-2">Popular Classes</span>
           </p>
-          <h1 class="mb-4">Classes for You</h1>
+          <h1 class="mb-4">Classes for Your Kids</h1>
         </div>
         <div class="row">
           <div class="col-lg-4 mb-5">
             <div class="card border-0 bg-light shadow-sm pb-2">
               <img class="card-img-top mb-2" src="img/class-1.jpg" alt="" />
               <div class="card-body text-center">
-                <h4 class="card-title">Data structures</h4>
+                <h4 class="card-title">Drawing Class</h4>
                 <p class="card-text">
-                  In a competitive job market, candidates who excel in data structure-related questions have an advantage.
+                  Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
+                  ipsum duo et no et, ipsum ipsum erat duo amet clita duo
                 </p>
               </div>
               <div class="card-footer bg-transparent py-4 px-5">
@@ -497,336 +316,6 @@
     </div>
     <!-- Registration End -->
 
-    <!-- Team Start -->
-    <div class="container-fluid pt-5">
-      <div class="container">
-        <div class="text-center pb-2">
-          <p class="section-title px-5">
-            <span class="px-2">Our Teachers</span>
-          </p>
-          <h1 class="mb-4">Meet Our Teachers</h1>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-3 text-center team mb-5">
-            <div
-              class="position-relative overflow-hidden mb-4"
-              style="border-radius: 100%"
-            >
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
-              <div
-                class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute"
-              >
-                <a
-                  class="btn btn-outline-light text-center mr-2 px-0"
-                  style="width: 38px; height: 38px"
-                  href="#"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a
-                  class="btn btn-outline-light text-center mr-2 px-0"
-                  style="width: 38px; height: 38px"
-                  href="#"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a
-                  class="btn btn-outline-light text-center px-0"
-                  style="width: 38px; height: 38px"
-                  href="#"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-              </div>
-            </div>
-            <h4>Julia Smith</h4>
-            <i>Music Teacher</i>
-          </div>
-          <div class="col-md-6 col-lg-3 text-center team mb-5">
-            <div
-              class="position-relative overflow-hidden mb-4"
-              style="border-radius: 100%"
-            >
-              <img class="img-fluid w-100" src="img/team-2.jpg" alt="" />
-              <div
-                class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute"
-              >
-                <a
-                  class="btn btn-outline-light text-center mr-2 px-0"
-                  style="width: 38px; height: 38px"
-                  href="#"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a
-                  class="btn btn-outline-light text-center mr-2 px-0"
-                  style="width: 38px; height: 38px"
-                  href="#"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a
-                  class="btn btn-outline-light text-center px-0"
-                  style="width: 38px; height: 38px"
-                  href="#"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-              </div>
-            </div>
-            <h4>Jhon Doe</h4>
-            <i>Language Teacher</i>
-          </div>
-          <div class="col-md-6 col-lg-3 text-center team mb-5">
-            <div
-              class="position-relative overflow-hidden mb-4"
-              style="border-radius: 100%"
-            >
-              <img class="img-fluid w-100" src="img/team-3.jpg" alt="" />
-              <div
-                class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute"
-              >
-                <a
-                  class="btn btn-outline-light text-center mr-2 px-0"
-                  style="width: 38px; height: 38px"
-                  href="#"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a
-                  class="btn btn-outline-light text-center mr-2 px-0"
-                  style="width: 38px; height: 38px"
-                  href="#"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a
-                  class="btn btn-outline-light text-center px-0"
-                  style="width: 38px; height: 38px"
-                  href="#"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-              </div>
-            </div>
-            <h4>Mollie Ross</h4>
-            <i>Dance Teacher</i>
-          </div>
-          <div class="col-md-6 col-lg-3 text-center team mb-5">
-            <div
-              class="position-relative overflow-hidden mb-4"
-              style="border-radius: 100%"
-            >
-              <img class="img-fluid w-100" src="img/team-4.jpg" alt="" />
-              <div
-                class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute"
-              >
-                <a
-                  class="btn btn-outline-light text-center mr-2 px-0"
-                  style="width: 38px; height: 38px"
-                  href="#"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a
-                  class="btn btn-outline-light text-center mr-2 px-0"
-                  style="width: 38px; height: 38px"
-                  href="#"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a
-                  class="btn btn-outline-light text-center px-0"
-                  style="width: 38px; height: 38px"
-                  href="#"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-              </div>
-            </div>
-            <h4>Donald John</h4>
-            <i>Art Teacher</i>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Team End -->
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
-      <div class="container p-0">
-        <div class="text-center pb-2">
-          <p class="section-title px-5">
-            <span class="px-2">Testimonial</span>
-          </p>
-          <h1 class="mb-4">What Parents Say!</h1>
-        </div>
-        <div class="owl-carousel testimonial-carousel">
-          <div class="testimonial-item px-3">
-            <div class="bg-light shadow-sm rounded mb-4 p-4">
-              <h3 class="fas fa-quote-left text-primary mr-3"></h3>
-              Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
-              eirmod clita lorem. Dolor tempor ipsum clita
-            </div>
-            <div class="d-flex align-items-center">
-              <img
-                class="rounded-circle"
-                src="img/testimonial-1.jpg"
-                style="width: 70px; height: 70px"
-                alt="Image"
-              />
-              <div class="pl-3">
-                <h5>Parent Name</h5>
-                <i>Profession</i>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-item px-3">
-            <div class="bg-light shadow-sm rounded mb-4 p-4">
-              <h3 class="fas fa-quote-left text-primary mr-3"></h3>
-              Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
-              eirmod clita lorem. Dolor tempor ipsum clita
-            </div>
-            <div class="d-flex align-items-center">
-              <img
-                class="rounded-circle"
-                src="img/testimonial-2.jpg"
-                style="width: 70px; height: 70px"
-                alt="Image"
-              />
-              <div class="pl-3">
-                <h5>Parent Name</h5>
-                <i>Profession</i>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-item px-3">
-            <div class="bg-light shadow-sm rounded mb-4 p-4">
-              <h3 class="fas fa-quote-left text-primary mr-3"></h3>
-              Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
-              eirmod clita lorem. Dolor tempor ipsum clita
-            </div>
-            <div class="d-flex align-items-center">
-              <img
-                class="rounded-circle"
-                src="img/testimonial-3.jpg"
-                style="width: 70px; height: 70px"
-                alt="Image"
-              />
-              <div class="pl-3">
-                <h5>Parent Name</h5>
-                <i>Profession</i>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-item px-3">
-            <div class="bg-light shadow-sm rounded mb-4 p-4">
-              <h3 class="fas fa-quote-left text-primary mr-3"></h3>
-              Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
-              eirmod clita lorem. Dolor tempor ipsum clita
-            </div>
-            <div class="d-flex align-items-center">
-              <img
-                class="rounded-circle"
-                src="img/testimonial-4.jpg"
-                style="width: 70px; height: 70px"
-                alt="Image"
-              />
-              <div class="pl-3">
-                <h5>Parent Name</h5>
-                <i>Profession</i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Testimonial End -->
-
-    <!-- Blog Start -->
-    <div class="container-fluid pt-5">
-      <div class="container">
-        <div class="text-center pb-2">
-          <p class="section-title px-5">
-            <span class="px-2">Latest Blog</span>
-          </p>
-          <h1 class="mb-4">Latest Articles From Blog</h1>
-        </div>
-        <div class="row pb-3">
-          <div class="col-lg-4 mb-4">
-            <div class="card border-0 shadow-sm mb-2">
-              <img class="card-img-top mb-2" src="img/blog-1.jpg" alt="" />
-              <div class="card-body bg-light text-center p-4">
-                <h4 class="">Diam amet eos at no eos</h4>
-                <div class="d-flex justify-content-center mb-3">
-                  <small class="mr-3"
-                    ><i class="fa fa-user text-primary"></i> Admin</small
-                  >
-                  <small class="mr-3"
-                    ><i class="fa fa-folder text-primary"></i> Web Design</small
-                  >
-                  <small class="mr-3"
-                    ><i class="fa fa-comments text-primary"></i> 15</small
-                  >
-                </div>
-                <p>
-                  Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam
-                  eirmod, duo et sed sit eirmod kasd clita tempor dolor stet
-                  lorem. Tempor ipsum justo amet stet...
-                </p>
-                <a href="" class="btn btn-primary px-4 mx-auto my-2"
-                  >Read More</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 mb-4">
-            <div class="card border-0 shadow-sm mb-2">
-              <img class="card-img-top mb-2" src="img/blog-2.jpg" alt="" />
-              <div class="card-body bg-light text-center p-4">
-                <h4 class="">Diam amet eos at no eos</h4>
-                <div class="d-flex justify-content-center mb-3">
-                  <small class="mr-3"
-                    ><i class="fa fa-user text-primary"></i> Admin</small
-                  >
-                  <small class="mr-3"
-                    ><i class="fa fa-folder text-primary"></i> Web Design</small
-                  >
-                  <small class="mr-3"
-                    ><i class="fa fa-comments text-primary"></i> 15</small
-                  >
-                </div>
-                <p>
-                  Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam
-                  eirmod, duo et sed sit eirmod kasd clita tempor dolor stet
-                  lorem. Tempor ipsum justo amet stet...
-                </p>
-                <a href="" class="btn btn-primary px-4 mx-auto my-2"
-                  >Read More</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 mb-4">
-            <div class="card border-0 shadow-sm mb-2">
-              <img class="card-img-top mb-2" src="img/blog-3.jpg" alt="" />
-              <div class="card-body bg-light text-center p-4">
-                <h4 class="">Diam amet eos at no eos</h4>
-                <div class="d-flex justify-content-center mb-3">
-                  <small class="mr-3"
-                    ><i class="fa fa-user text-primary"></i> Admin</small
-                  >
-                  <small class="mr-3"
-                    ><i class="fa fa-folder text-primary"></i> Web Design</small
-                  >
-                  <small class="mr-3"
-                    ><i class="fa fa-comments text-primary"></i> 15</small
-                  >
-                </div>
-                <p>
-                  Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam
-                  eirmod, duo et sed sit eirmod kasd clita tempor dolor stet
-                  lorem. Tempor ipsum justo amet stet...
-                </p>
-                <a href="" class="btn btn-primary px-4 mx-auto my-2"
-                  >Read More</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Blog End -->
-
     <!-- Footer Start -->
     <div
       class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5"
@@ -991,179 +480,8 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
   </body>
-</html>
-<style>
-
-*{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
-body{
-  font-family: montserrat;
-}
-nav{
-  background: #0082e6;
-  height: 80px;
-  width: 100%;
-}
-label.logo{
-  color: white;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
-}
-nav ul{
-  float: right;
-  margin-right: 20px;
-}
-nav ul li{
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-nav ul li a{
-  color: white;
-  font-size: 17px;
-  padding: 7px 13px;
-  border-radius: 3px;
-  text-transform: uppercase;
-}
-a.active,a:hover{
-  background: #1b9bff;
-  transition: .5s;
-}
-.checkbtn{
-  font-size: 30px;
-  color: white;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-#check{
-  display: none;
-}
-@media (max-width: 952px){
-  label.logo{
-    font-size: 30px;
-    padding-left: 50px;
-  }
-  nav ul li a{
-    font-size: 16px;
-  }
-}
-@media (max-width: 858px){
-  .checkbtn{
-    display: block;
-  }
-  ul{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #2c3e50;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-  }
-  nav ul li{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-  nav ul li a{
-    font-size: 20px;
-  }
-  a:hover,a.active{
-    background: none;
-    color: #0082e6;
-  }
-  #check:checked ~ ul{
-    left: 0;
-  }
-}
-section{
-  background: url(bg1.jpg) no-repeat;
-  background-size: cover;
-  height: calc(100vh - 80px);
-}
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 460px;
-  height: 250px;
-  border-radius: 30px;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-/* .button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
-} */
-
-.button1:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/******* Bootstrap Theming ********/
+  <style>
+  /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -11029,6 +10347,6 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0;
   list-style-type: none;
 }
-
-
-</style>
+  
+  </style>
+</html>

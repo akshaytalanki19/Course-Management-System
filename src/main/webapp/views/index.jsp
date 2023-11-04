@@ -25,91 +25,10 @@
         
       </ul>
     </nav>
-    <center><h1>REGISTER FOR A COURSE</h1></center>
-<div class="responsive">
-    
-  <div class="gallery">
-    <a target="_blank" href="img_5terre.jpg">
-      <img src="cyber.jfif" alt="Cinque Terre" width="600" height="400">
-    </a>
-    <div class="desc"><button class="button button1">CLOUD COMPUTING</button></div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_forest.jpg">
-      <img src="/DS" alt="Forest" width="600" height="600">
-    </a>
-    <div class="desc"><button class="button button1">DATA SCIENCE</button></div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_lights.jpg">
-      <img src="/English.jfif" alt="Northern Lights" width="600" height="400">
-    </a>
-    <div class="desc"><button class="button button1">COMMUNICATION SKILLS</button></div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
-      <img src="/cy.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc"><button class="button button1">CYBER SECURITY</button></div>
-  </div>
-  <br>
-  
-</div>
-
-<div class="responsive">
-    
-    <div class="gallery">
-      <a target="_blank" href="img_5terre.jpg">
-        <img src="/ai.jpg" alt="Cinque Terre" width="600" height="400">
-      </a>
-      <div class="desc"><button class="button button1">ARTIFICIAL INTELLEGINCE</button></div>
-    </div>
-  </div>
-  
-  
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="img_forest.jpg">
-        <img src="/ml.jfif" alt="Forest" width="600" height="600">
-      </a>
-      <div class="desc"><button class="button button1">MACHINE LEARNING</button></div>
-    </div>
-  </div>
-  
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="img_lights.jpg">
-        <img src="/db.jfif" alt="Northern Lights" width="600" height="400">
-      </a>
-      <div class="desc"><button class="button button1">DATABASE</button></div>
-    </div>
-  </div>
-  
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="img_mountains.jpg">
-        <img src="/UX.jfif" alt="Mountains" width="600" height="400">
-      </a>
-      <div class="desc"><button class="button button1">UX DESIGN</button></div>
-    </div>
-    <br>
-    
-  </div>
-  </body>
-</html>
-<style>
-
-*{
+    </body>
+    </html>
+    <style>
+    *{
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -248,33 +167,5 @@ div.desc {
   transition-duration: 0.4s;
   cursor: pointer;
 }
-/* .button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
-} */
-
-.button1:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
+    
+    </style>
