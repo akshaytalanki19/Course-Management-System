@@ -13,5 +13,10 @@ public class StaffServiceimpl implements StaffService{
 	public Staff checkStafflogin(String email, String pwd) {
 		return staffRepository.checkstafflogin(email,pwd);
 	}
+	@Override
+	public String addstaff(Staff s) {
+		staffRepository.save(s);
+		return "Staff Registered Successfully";
+	}
 
 }

@@ -52,6 +52,38 @@ public class Rest {
 	    
 	    return mv;
 	}
+	@GetMapping("feedback") //URI & method name can be different 
+	 public ModelAndView feedback() 
+	 { 
+	  ModelAndView mv=new ModelAndView(); 
+	  mv.setViewName("feedback"); 
+	  return mv; 
+	 }
+	@PostMapping("insertfaculty")
+	public ModelAndView insert(HttpServletRequest request)
+	{
+		String msg=null;
+		ModelAndView mv=new ModelAndView();
+		try
+		{
+			String name=request.getParameter("name");
+			String password=request.getParameter("pwd");
+			Staff s=new Staff();
+			s.setUsername(name);
+			s.setPassword(password);
+			msg=staffService.addstaff(s);
+			mv.setViewName("adminhome");
+			mv.addObject("message",msg);
+		}
+		catch(Exception e)
+		{
+			msg=e.getMessage();
+			mv.setViewName("insertfaculty");
+			mv.addObject("message", msg); //msg-attribute
+		}
+		
+		return mv;
+	}
 	@Autowired
 	public AdminService adminService;
 	@PostMapping("checkadminlogin")
@@ -68,9 +100,8 @@ public class Rest {
 	    if(admin!=null)
 	    {
 	      mv.setViewName("adminhome");
-//	      long count =adminService.usercount();
-	      
-//	      mv.addObject("ucount",count);
+	      long count =adminService.usercount();
+          mv.addObject("ucount", count);
 	    }
 	    else
 	    {	
@@ -80,6 +111,7 @@ public class Rest {
 	    
 	    return mv;
 	}
+	
 	@PostMapping("checkstafflogin")
 	public ModelAndView checkstafflogin(HttpServletRequest request)
 	{
@@ -135,6 +167,13 @@ public class Rest {
 	{
 		ModelAndView mv=new ModelAndView();
 		mv.setViewName("adminlogin");
+		return mv;
+	}
+	@GetMapping("viewUserCount")
+	public ModelAndView viewUSerCount()
+	{
+		ModelAndView mv=new ModelAndView();
+		mv.setViewName("viewUserCount");
 		return mv;
 	}
 	@GetMapping("stafflogin")

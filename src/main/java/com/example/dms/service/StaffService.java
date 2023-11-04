@@ -6,4 +6,6 @@ public interface StaffService {
 
 	public Staff checkStafflogin(String email, String pwd);
 
+	public String addstaff(Staff s);
+
 }

@@ -19,13 +19,69 @@
         <li><a class="/" href="#">HOME</a></li>
         <li><a href="adminlogin">ADMIN</a></li>
         <li><a href="login">USER</a></li>
-        <li><a href="stafflogin">STAFF</a></li>
+        <li><a href="#">STAFF</a></li>
         <li><a href="#">ABOUT US</a></li>
         <li><a href="#">CONTACT US</a></li>
         
       </ul>
     </nav>
     <section></section>
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+
+        <div class="foot-panel2">
+                <ul>
+                <p>Materials</p>
+                <h1>About Us</h1>
+                <h1>Careers</h1>
+                <h1>Guided materials</h1>
+                <h1>Contact</h1>
+
+            </ul>
+            <ul>
+                <p>Event materials</p>
+                <h1>Paid courses</h1>
+                <h1>Guest courses</h1>
+                <h1>Limited edition</h1>
+                <h1>Chat with us</h1>
+
+            </ul>
+             <ul>
+                <p>Materials</p>
+                <h1>About Us</h1>
+                <h1>Careers</h1>
+                <h1>Guided materials</h1>
+                <h1>Contact</h1>
+
+            </ul>
+            <ul>
+                <p>Event materials</p>
+                <h1>Paid courses</h1>
+                <h1>Guest courses</h1>
+                <h1>Limited edition</h1>
+                <h1>Chat with us</h1>
+
+            </ul>
+        </div>
+
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2023, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+
+    </footer>
   </body>
 </html>
 <style>
@@ -121,6 +177,70 @@ a.active,a:hover{
   #check:checked ~ ul{
     left: 0;
   }
+}
+/ footer /
+footer {
+    margin-top: 15px;
+}
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+ul h1 {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    font-size: 0.7rem;
+    text-align: center;
+
+}
+
+.pages {
+    padding-top: 25px;
+}
+.copyright {
+    padding-top: 5px;
 }
 section{
   background: url(bg1.jpg) no-repeat;

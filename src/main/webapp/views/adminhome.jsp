@@ -7,15 +7,15 @@
   </div>
   <div id="nav-content">
     <div class="nav-button"><a href ="viewUsers"><i class="fas fa-palette"></i><span>view all users</span></a></div>
-    <div class="nav-button"><i class="fas fa-images"></i><span>count of users</span></div>
+    <div class="nav-button"><a href ="viewUserCount"><i class="fas fa-images"></i><span>count of users</span></a></div>
     <div class="nav-button"><i class="fas fa-thumbtack"></i><span>delete user</span></div>
     <hr/>
     <div class="nav-button"><i class="fas fa-heart"></i><span>delete staff</span></div>
     <div class="nav-button"><i class="fas fa-chart-line"></i><span>delete by id</span></div>
     <div class="nav-button"><i class="fas fa-fire"></i><span>view user by id</span></div>
-    <div class="nav-button"><i class="fas fa-magic"></i><span>insert faculty</span></div>
+    <div class="nav-button"><a href ="insertfaculty"><i class="fas fa-magic"></i><span>insert faculty</span></a></div>
     <hr/>
-    <div class="nav-button"><i class="fas fa-gem"></i><span>Codepen Pro</span></div>
+    <div class="nav-button"><i class="fas fa-gem"></i><span>Admin page</span></div>
     <div id="nav-content-highlight"></div>
   </div>
   <input id="nav-footer-toggle" type="checkbox"/>
