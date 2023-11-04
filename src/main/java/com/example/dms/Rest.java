@@ -8,11 +8,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import com.example.dms.model.Admin;
+import com.example.dms.model.Staff;
 import com.example.dms.model.User;
 import com.example.dms.repository.UserRepository;
 import com.example.dms.service.AdminService;
+import com.example.dms.service.StaffService;
 import com.example.dms.service.UserService;
 
 
@@ -27,7 +30,8 @@ public class Rest {
 	private UserService userService;
 	@Autowired
 	UserRepository userRepository;
-	
+	@Autowired
+	private StaffService staffService;
 		@RequestMapping("/")
 		public String start()
 		{
@@ -76,11 +80,37 @@ public class Rest {
 	    
 	    return mv;
 	}
+	@PostMapping("checkstafflogin")
+	public ModelAndView checkstafflogin(HttpServletRequest request)
+	{
+		ModelAndView mv=new ModelAndView();
+		String email=request.getParameter("sname");
+		String pwd=request.getParameter("spwd");
+		Staff staff=staffService.checkStafflogin(email,pwd);
+		if(staff != null)
+		{
+			HttpSession s=request.getSession();
+			s.setAttribute("sid", staff.getId());
+			s.setAttribute("sname", staff.getUsername());
+			mv.setViewName("home");
+		}
+		return mv;
+		
+	}
+	@GetMapping("view")
+	public ModelAndView viewempdemo(@RequestParam("id") int uid)
+	{
+	    User user = adminService.viewempbyid(uid);
+	    ModelAndView mv = new ModelAndView();
+	    mv.setViewName("viewempbyid");
+	    mv.addObject("user", user);
+	    return mv;
+	}
 	@GetMapping("viewUsers")
 	public ModelAndView viewusers()
 	{
-		List<User> list=adminService.viewlAllUsers();
-		ModelAndView mv=new ModelAndView();
+		List<User> list=adminService.viewUsers();
+		ModelAndView mv=new ModelAndView("viewUsers");
 		mv.addObject("userdata", list);
 		return mv;
 		
@@ -96,7 +126,7 @@ public class Rest {
 	{
 		ModelAndView mv=new ModelAndView();
 		mv.setViewName("deleteStudent");
-		List<User> l=adminService.viewlAllUsers();
+		List<User> l=adminService.viewUsers();
 		mv.addObject("userdata",l);
 		return mv;
 	}
@@ -105,6 +135,13 @@ public class Rest {
 	{
 		ModelAndView mv=new ModelAndView();
 		mv.setViewName("adminlogin");
+		return mv;
+	}
+	@GetMapping("stafflogin")
+	public ModelAndView stafflogin()
+	{
+		ModelAndView mv=new ModelAndView();
+		mv.setViewName("stafflogin");
 		return mv;
 	}
 	@GetMapping("adminhome")
