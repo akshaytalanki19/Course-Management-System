@@ -19,7 +19,7 @@
         <li><a class="/" href="#">HOME</a></li>
         <li><a href="adminlogin">ADMIN</a></li>
         <li><a href="login">USER</a></li>
-        <li><a href="#">STAFF</a></li>
+        <li><a href="stafflogin">STAFF</a></li>
         <li><a href="#">ABOUT US</a></li>
         <li><a href="#">CONTACT US</a></li>
         

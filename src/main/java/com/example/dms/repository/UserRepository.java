@@ -17,10 +17,12 @@ public interface UserRepository extends JpaRepository<User, Integer>
 	@Query("select u from User u where email=?1 and password=?2")
 	public User checkUserlogin(String email,String pwd);
 	
-//	@Query("select COUNT(*) from User")
-//	@Transactional
-//	public long count();
-//	
-//	@Query("select * from User")
-//	public List<User> findAll();
+	@Query("SELECT COUNT(u) FROM User u")
+    public long countUsers();
+	
+	@Query("select u from User u")
+	public List<User> findAll();
+	
+	@Query("select u from User u where id=?1")
+	public List<User> findById(int id);
 }

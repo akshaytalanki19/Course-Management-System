@@ -9,7 +9,8 @@ public interface AdminService
 {
   public Admin checkadminlogin(String auname,String apwd);
   public long usercount();
-  public List<User> viewlAllUsers();
+  public List<User> viewUsers();
   public void deleteuser(int uid);
+  public User viewempbyid(int uid);
 
 }
