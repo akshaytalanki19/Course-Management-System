@@ -25,7 +25,7 @@
         
       </ul>
     </nav>
-<<<<<<< HEAD
+
     <section></section>
     <footer>
         <div class="foot-panel1">
@@ -85,14 +85,10 @@
     </footer>
   </body>
 </html>
-<style>
-*{
-=======
     </body>
     </html>
     <style>
     *{
->>>>>>> 616cb46f30234cc6929ee5d5075ab95ba594881c
   padding: 0;
   margin: 0;
   text-decoration: none;
