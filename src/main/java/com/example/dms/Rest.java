@@ -59,6 +59,7 @@ public class Rest {
 	  mv.setViewName("feedback"); 
 	  return mv; 
 	 }
+	@GetMapping("insertfaculty")
 	@PostMapping("insertfaculty")
 	public ModelAndView insert(HttpServletRequest request)
 	{
