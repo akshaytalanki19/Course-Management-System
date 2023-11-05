@@ -60,7 +60,17 @@ public class Rest {
 	  return mv; 
 	 }
 	@GetMapping("insertfaculty")
+<<<<<<< HEAD
 	@PostMapping("insertfaculty")
+=======
+	public ModelAndView insertpage()
+	{
+		 ModelAndView mv=new ModelAndView(); 
+		  mv.setViewName("insertfaculty"); 
+		  return mv; 
+	}
+	@PostMapping("insertdatafaculty")
+>>>>>>> 726d59f91191a650015c756ded6e007f4a998216
 	public ModelAndView insert(HttpServletRequest request)
 	{
 		String msg=null;
@@ -148,11 +158,21 @@ public class Rest {
 		return mv;
 		
 	}
-	@GetMapping("delete/{id}")
-	public String deleteById(@PathVariable("id") int uid)
+	@GetMapping("deletefromuser")
+	public ModelAndView deletefromuser()
 	{
+		ModelAndView mv=new ModelAndView();
+		mv.setViewName("deletefromuser");
+		return mv;
+	}
+	
+	@PostMapping("delete")
+	public String deleteById(HttpServletRequest request)
+	{
+		String uuid=request.getParameter("id");
+		int uid=Integer.parseInt(uuid);
 	    adminService.deleteuser(uid);
-	    return "redirect:/deleteuser";
+	    return "redirect:/adminhome";
 	}
 	@GetMapping("deleteuser")
 	public ModelAndView deleteuser()

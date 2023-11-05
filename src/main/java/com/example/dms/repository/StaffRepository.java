@@ -9,5 +9,4 @@ import com.example.dms.model.Staff;
 public interface StaffRepository extends JpaRepository<Staff, Integer>{
     @Query("select s from Staff s where username=?1 and password=?2")
 	public Staff checkstafflogin(String email, String pwd);
-
 }

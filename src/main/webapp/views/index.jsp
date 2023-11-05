@@ -25,7 +25,7 @@
         
       </ul>
     </nav>
-
+    <img src="https://www.eleapsoftware.com/wp-content/uploads/2020/02/17-Course-Management-System--scaled.jpg" width="1900" height="1000">
     <section></section>
     <footer>
         <div class="foot-panel1">
