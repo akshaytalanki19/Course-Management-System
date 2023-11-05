@@ -46,7 +46,7 @@
           style="font-size: 50px"
         >
           <i class="flaticon-043-teddy-bear"></i>
-          <span class="text-primary">KidKinder</span>
+          <span class="text-primary">SDP</span>
         </a>
         <button
           type="button"

@@ -113,7 +113,7 @@
           <div class="col-lg-5">
             <img
               class="img-fluid rounded mb-5 mb-lg-0"
-              src="img/about-1.jpg"
+              src="https://images.pexels.com/photos/5676678/pexels-photo-5676678.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
             />
           </div>
@@ -282,25 +282,25 @@
               class="position-relative overflow-hidden mb-4"
               style="border-radius: 100%"
             >
-              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <img class="img-fluid w-100" src="https://images.pexels.com/photos/7092613/pexels-photo-7092613.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
               <div
                 class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute"
               >
                 <a
                   class="btn btn-outline-light text-center mr-2 px-0"
-                  style="width: 38px; height: 38px"
+                  style="width: 38px; height: 45px"
                   href="#"
                   ><i class="fab fa-twitter"></i
                 ></a>
                 <a
                   class="btn btn-outline-light text-center mr-2 px-0"
-                  style="width: 38px; height: 38px"
+                  style="width: 38px; height: 45px"
                   href="#"
                   ><i class="fab fa-facebook-f"></i
                 ></a>
                 <a
                   class="btn btn-outline-light text-center px-0"
-                  style="width: 38px; height: 38px"
+                  style="width: 38px; height: 45px"
                   href="#"
                   ><i class="fab fa-linkedin-in"></i
                 ></a>
@@ -314,7 +314,7 @@
               class="position-relative overflow-hidden mb-4"
               style="border-radius: 100%"
             >
-              <img class="img-fluid w-100" src="img/team-2.jpg" alt="" />
+              <img class="img-fluid w-100" src="https://images.pexels.com/photos/6325968/pexels-photo-6325968.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
               <div
                 class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute"
               >
@@ -346,7 +346,7 @@
               class="position-relative overflow-hidden mb-4"
               style="border-radius: 100%"
             >
-              <img class="img-fluid w-100" src="img/team-3.jpg" alt="" />
+              <img class="img-fluid w-100" src="https://images.pexels.com/photos/8197513/pexels-photo-8197513.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
               <div
                 class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute"
               >
@@ -371,14 +371,14 @@
               </div>
             </div>
             <h4>Mollie Ross</h4>
-            <i>Dance Teacher</i>
+            <i> Proffessor</i>
           </div>
           <div class="col-md-6 col-lg-3 text-center team mb-5">
             <div
               class="position-relative overflow-hidden mb-4"
               style="border-radius: 100%"
             >
-              <img class="img-fluid w-100" src="img/team-4.jpg" alt="" />
+              <img class="img-fluid w-100" src="https://media.istockphoto.com/id/1448069367/photo/portrait-of-happy-indian-mature-professor-of-university-or-college-or-standing-outdoor.jpg?b=1&s=612x612&w=0&k=20&c=DKEtIK9JaZIViKI5K6AnJdS-csFGpWfRlLejRdUMXWk=" alt="" />
               <div
                 class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute"
               >

@@ -46,7 +46,7 @@
           style="font-size: 50px"
         >
           <i class="flaticon-043-teddy-bear"></i>
-          <span class="text-primary">KidKinder</span>
+          <span class="text-primary">SDP</span>
         </a>
         <button
           type="button"
@@ -112,9 +112,6 @@
 </head>
 <body>
 
-<h2>Responsive Image Gallery</h2>
-
-<h4>Resize the browser window to see the effect.</h4>
 
 <div class="responsive">
   <div class="gallery">

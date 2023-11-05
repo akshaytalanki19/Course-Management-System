@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>SDP-COntact form</title>
 </head>
 <body>
 
@@ -75,7 +75,7 @@ body {
 
 .form-main {
   background: linear-gradient(to bottom, #00000024, #00000024),
-    url(https://res.cloudinary.com/dqifboxk5/image/upload/v1686209968/contact-us-2_y8zzx7.jpg)
+    url(https://images.pexels.com/photos/23547/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600)
       no-repeat center;
   background-size: cover;
   min-height: 100vh;

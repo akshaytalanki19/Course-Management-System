@@ -14,7 +14,7 @@
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <label class="logo">Course Management system</label>
+      <label class="logo">SDP</label>
       <ul>
         <li><a class="/" href="#">HOME</a></li>
         <li><a href="adminlogin">ADMIN</a></li>
