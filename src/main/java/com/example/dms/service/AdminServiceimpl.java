@@ -35,16 +35,22 @@ public class AdminServiceimpl implements AdminService{
 	}
 	@Override
 	public void deleteuser(int uid) {
-		// TODO Auto-generated method stub
+		
+		Optional<User> obj=userRepository.findById(uid);
+		if(obj.isPresent())
+		{
+			User u=obj.get();
+			userRepository.delete(uid);
+		}
 		
 	}
 	@Override
 	public User viewempbyid(int uid) {
-    List<User> obj = userRepository.findById(uid);    
+    Optional<User> obj = userRepository.findById(uid);    
 	    
-	    if(obj !=null)
+	    if(obj.isPresent())
 	    {
-	       User user = obj.get(uid);
+	       User user = obj.get();
 	      return user;
 	    }
 	    else

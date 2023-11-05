@@ -1,14 +1,14 @@
 
 <div id="nav-bar">
   <input id="nav-toggle" type="checkbox"/>
-  <div id="nav-header"><a id="nav-title" href="https://codepen.io" target="_blank">C<i class="fab fa-codepen"></i>DEPEN</a>
+  <div id="nav-header"><a id="nav-title" href="https://codepen.io" target="_blank"><i class="fab fa-codepen"></i>Admin</a>
     <label for="nav-toggle"><span id="nav-toggle-burger"></span></label>
     <hr/>
   </div>
   <div id="nav-content">
     <div class="nav-button"><a href ="viewUsers"><i class="fas fa-palette"></i><span>view all users</span></a></div>
     <div class="nav-button"><a href ="viewUserCount"><i class="fas fa-images"></i><span>count of users</span></a></div>
-    <div class="nav-button"><i class="fas fa-thumbtack"></i><span>delete user</span></div>
+    <div class="nav-button"><a href="deletefromuser"><i class="fas fa-thumbtack"></i><span>delete user</span></a></div>
     <hr/>
     <div class="nav-button"><i class="fas fa-heart"></i><span>delete staff</span></div>
     <div class="nav-button"><i class="fas fa-chart-line"></i><span>delete by id</span></div>

@@ -66,6 +66,7 @@
             <a href="classes" class="nav-item nav-link active">Classes</a>
             <a href="courses" class="nav-item nav-link">courses</a>
             <a href="gallery" class="nav-item nav-link">Gallery</a>
+             <a href="feedback" class="nav-item nav-link">FeedBack</a>
             <div class="nav-item dropdown">
               <a
                 href="#"
@@ -81,6 +82,9 @@
             <a href="contact" class="nav-item nav-link">Contact</a>
           </div>
           <a href="" class="btn btn-primary px-4">Join Class</a>
+          <a href="/">  <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-log-out"></span> Log out
+        </button></a>
         </div>
       </nav>
     </div>

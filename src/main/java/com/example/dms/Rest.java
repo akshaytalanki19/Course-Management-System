@@ -59,7 +59,14 @@ public class Rest {
 	  mv.setViewName("feedback"); 
 	  return mv; 
 	 }
-	@PostMapping("insertfaculty")
+	@GetMapping("insertfaculty")
+	public ModelAndView insertpage()
+	{
+		 ModelAndView mv=new ModelAndView(); 
+		  mv.setViewName("insertfaculty"); 
+		  return mv; 
+	}
+	@PostMapping("insertdatafaculty")
 	public ModelAndView insert(HttpServletRequest request)
 	{
 		String msg=null;
@@ -147,11 +154,21 @@ public class Rest {
 		return mv;
 		
 	}
-	@GetMapping("delete/{id}")
-	public String deleteById(@PathVariable("id") int uid)
+	@GetMapping("deletefromuser")
+	public ModelAndView deletefromuser()
 	{
+		ModelAndView mv=new ModelAndView();
+		mv.setViewName("deletefromuser");
+		return mv;
+	}
+	
+	@PostMapping("delete")
+	public String deleteById(HttpServletRequest request)
+	{
+		String uuid=request.getParameter("id");
+		int uid=Integer.parseInt(uuid);
 	    adminService.deleteuser(uid);
-	    return "redirect:/deleteuser";
+	    return "redirect:/adminhome";
 	}
 	@GetMapping("deleteuser")
 	public ModelAndView deleteuser()

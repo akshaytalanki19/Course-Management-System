@@ -1,6 +1,3 @@
-<%@ page contentType="text/html; charset=ISO-8859-1" isELIgnored="false"%>
-<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
-
 <html>
 <head>
 
@@ -12,7 +9,7 @@
 </head>
 <body>
 
-<%@ include file="adminnavbar.jsp" %>
+
 
 <br>
 
@@ -20,20 +17,20 @@
 
 <br>
 
-<form:form method="post" action="insertfaculty" modelAttribute="customer">
+<form method="post" action="insertdatafaculty" modelAttribute="staff">
 
 <table align=center>
 
 <tr>
 <td><label>Name</label></td>
 <td>
-<form:input path="name" required="required"></form:input>
+<input path="name" name="name" required="required"></input>
 </td>
 </tr>
 
 <tr>
 <td><label>password</label></td>
-<td><form:input path="password" required="required"/></td>
+<td><input path="password" name="pwd" required="required"/></td>
 </tr>
 
 <tr align=center>
@@ -42,7 +39,7 @@
 
 </table>
 
-</form:form>
+
 
 
 
