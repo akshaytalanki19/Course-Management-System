@@ -119,9 +119,9 @@
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_5terre.jpg">
-      <img src="1.jpg" alt="Cinque Terre" width="600" height="400">
+      <img src="https://images.pexels.com/photos/4491461/pexels-photo-4491461.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cinque Terre" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    
   </div>
 </div>
 
@@ -129,34 +129,38 @@
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_forest.jpg">
-      <img src="2.jpg" alt="Forest" width="600" height="400">
+      <img src="https://images.pexels.com/photos/5905713/pexels-photo-5905713.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Forest" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_lights.jpg">
-      <img src="3.jpg" alt="Northern Lights" width="600" height="400">
+      <img src="https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Northern Lights" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="img_mountains.jpg">
-      <img src="4.jpg" alt="Mountains" width="600" height="400">
+      <img src="https://media.istockphoto.com/id/1434947710/photo/businessman-headphones-and-laptop-webinar-in-office-with-coffee-on-table-video-call-or.jpg?b=1&s=612x612&w=0&k=20&c=46NTvvq1ervqUtdt1UNB6uTbl9698wjL_6ksqIY-B0k=" alt="Mountains" width="600" height="580">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    
   </div>
 </div>
+<br>
+<br>
+
+
 
 <div class="clearfix"></div>
 
 <div style="padding:6px;">
-  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+ 
 </div>
 
 </body>
@@ -166,9 +170,7 @@
     
 
     <!-- Footer Start -->
-    <div
-      class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5"
-    >
+    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
       <div class="row pt-5">
         <div class="col-lg-3 col-md-6 mb-5">
           <a

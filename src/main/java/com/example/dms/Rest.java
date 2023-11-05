@@ -60,9 +60,7 @@ public class Rest {
 	  return mv; 
 	 }
 	@GetMapping("insertfaculty")
-<<<<<<< HEAD
 	@PostMapping("insertfaculty")
-=======
 	public ModelAndView insertpage()
 	{
 		 ModelAndView mv=new ModelAndView(); 
@@ -70,7 +68,6 @@ public class Rest {
 		  return mv; 
 	}
 	@PostMapping("insertdatafaculty")
->>>>>>> 726d59f91191a650015c756ded6e007f4a998216
 	public ModelAndView insert(HttpServletRequest request)
 	{
 		String msg=null;
@@ -306,6 +303,13 @@ public class Rest {
 	{
 		ModelAndView mv=new ModelAndView();
 		mv.setViewName("gallery");
+		return mv;
+	}
+	@GetMapping("contact")
+	public ModelAndView contact()
+	{
+		ModelAndView mv=new ModelAndView();
+		mv.setViewName("contact");
 		return mv;
 	}
 	

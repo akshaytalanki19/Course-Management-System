@@ -21,11 +21,11 @@
         <li><a href="login">USER</a></li>
         <li><a href="#">STAFF</a></li>
         <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">CONTACT US</a></li>
+        <li><a href="contact">CONTACT US</a></li>
         
       </ul>
     </nav>
-    <img src="https://www.eleapsoftware.com/wp-content/uploads/2020/02/17-Course-Management-System--scaled.jpg" width="1900" height="1000">
+    <img src="https://www.eleapsoftware.com/wp-content/uploads/2020/02/17-Course-Management-System--scaled.jpg" width="1500" height="1000">
     <section></section>
     <footer>
         <div class="foot-panel1">
@@ -78,7 +78,7 @@
                 <a>Your Ads Privacy Choices</a>
             </div>
             <div class="copyright">
-                © 1996-2023, Amazon.com, Inc. or its affiliates
+                ï¿½ 1996-2023, Amazon.com, Inc. or its affiliates
             </div>
         </div>
 
